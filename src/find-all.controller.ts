@@ -1,8 +1,7 @@
 import { Controller, Get, HttpCode } from "@nestjs/common";
 import { FindAllBookService } from "./find-all.service";
-import { title } from "process";
 
-@Controller('/products')
+@Controller('/books')
 export class FindAllProductsController {
     constructor(private findAllBooks: FindAllBookService) { }
 
