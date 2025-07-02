@@ -48,7 +48,7 @@ export class BookRepository {
         id: number;
         title: string;
         author: string;
-        publicityYear: number;
+        publictionYear: number;
         isbn: string;
     }): Promise<Book> {
         const {id, ...rest} = data;
